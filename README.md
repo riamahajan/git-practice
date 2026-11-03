@@ -1,7 +1,6 @@
 # Git & GitHub practice: an R analysis project
 
-A hands-on, self-paced guide to managing a real R analysis project with **Git**, **GitHub** and **GitHub Desktop**,
-for members of the epidemiology lab. No command line, and nothing to memorise.
+A hands-on, self-paced guide to managing a real R analysis project with **Git**, **GitHub** and **GitHub Desktop**. No command line, and nothing to memorise.
 
 You'll work on a small exploratory data analysis (EDA) of the Iris dataset. Along the way you'll fork, clone, commit,
 push, branch, open pull requests, resolve a merge conflict and recover from mistakes, on a project where breaking
