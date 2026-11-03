@@ -1,0 +1,32 @@
+# .gitignore lists files and folders that git should NOT track.
+# It only affects files that have never been committed ("untracked" files).
+# A line starting with ! is an exception: "do track this one after all".
+
+# ---- R and RStudio session files (personal, not part of the analysis) ----
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# ---- Data: NEVER commit data ----
+# Datasets live on your computer only (or on a secure drive), not on GitHub.
+# Everything in data/ is ignored, except the README that explains the folder.
+data/*
+!data/README.md
+
+# ---- Generated output: can be recreated by running the scripts ----
+output/*
+!output/README.md
+Rplots.pdf
+
+# ---- Credentials and personal settings ----
+.Renviron
+*.pem
+*.key
+
+# ---- Operating system clutter ----
+.DS_Store
+Thumbs.db
+
+# ---- Facilitator-only notes (kept on the maintainer's computer, not shared) ----
+FACILITATOR_GUIDE.md
